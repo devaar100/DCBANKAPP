@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "564973950373",
+    "firebase_url": "https://dcbankapp.firebaseio.com",
+    "project_id": "dcbankapp",
+    "storage_bucket": "dcbankapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564973950373:android:177a79aaca437b45",
+        "android_client_info": {
+          "package_name": "aarnav100.developer.dcbankapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564973950373-rab8986obpqsbf2m154h2doquen2s3o7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "aarnav100.developer.dcbankapp",
+            "certificate_hash": "0f91e1d7b90319336d2209833b370a69279bd439"
+          }
+        },
+        {
+          "client_id": "564973950373-42rdh04tpr8nr69vhtarh9fd605mb8u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjjgBJIPxVn6NbPvVmuLuyoNJ84KWgaoM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564973950373-42rdh04tpr8nr69vhtarh9fd605mb8u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

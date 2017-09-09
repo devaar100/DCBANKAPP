@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aarnav100.developer.dcbankapp.DetailActivity">
+    <TextView
+        android:textColor="#20B2AA"
+        android:layout_marginTop="20dp"
+        android:text="My Details"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/person"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <EditText
+        android:id="@+id/name"
+        android:textColor="@color/headColor"
+        android:text="Daizy Mehta"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/aadhar"
+        android:textColor="@color/headColor"
+        android:text="123XXXXXXXX89"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Threshold Value"
+        android:textColor="@color/headColor"
+        android:text="1000"
+        android:id="@+id/threshold"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/save"
+        android:text="Save"
+        android:textColor="@android:color/white"
+        android:background="@color/headColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
